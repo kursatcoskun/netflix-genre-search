@@ -49,7 +49,10 @@ function App() {
       </div>
       <br />
       <div className="item-container">
-        <Button onClick={() => window.open(String(selectedOption))}>
+        <Button
+          disabled={!selectedOption}
+          onClick={() => window.open(String(selectedOption))}
+        >
           Search on Netflix
         </Button>
       </div>

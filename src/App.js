@@ -1,4 +1,3 @@
-import "./App.css";
 import { Button, Dropdown } from "semantic-ui-react";
 import { useEffect, useState } from "react";
 import logo from "./netflix.png";
